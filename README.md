@@ -69,16 +69,3 @@ A good chunk of the real learning came from debugging, not building:
 - Newer Azure Key Vaults use the RBAC permission model by default, so even the account that creates the vault needs an explicit role assignment before it can read/write secrets
 - A stray file with an unrelated schema sitting in a source folder can silently break schema inference for an entire dataset
 
-## Screenshots
-
-**AWS S3 source bucket**
-![S3 bucket](docs/s3-bucket.png)
-
-**Bronze / Silver / Gold containers in ADLS Gen2**
-![ADLS containers](docs/adls-containers.png)
-
-**Automated pipeline run — S3 to Bronze**
-![Pipeline run succeeded](docs/pipeline-success.png)
-
-**Silver layer Data Flow — cleaning raw Bronze data**
-![Silver Data Flow](docs/silver-dataflow.png)
